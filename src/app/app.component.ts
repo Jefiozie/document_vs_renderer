@@ -4,15 +4,13 @@ import { Component } from "@angular/core";
   selector: "app-root",
   template: `
     <ul>
-      <li>renderer</li>
-      <li>document</li>
-      <li>elementRef</li>
+      <li routerLink="renderer">renderer</li>
+      <li routerLink="document">document</li>
+      <li routerLink="elementRef">elementRef</li>
     </ul>
 
     <router-outlet></router-outlet>
   `,
-  styles: [],
 })
 export class AppComponent {
-  title = "document_vs_renderer";
 }
